@@ -8,7 +8,6 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.kotlin.R
 import com.example.kotlin.activity.QListActivity
-import com.example.kotlin.data.AlgorithmData
 import com.example.kotlin.data.Data
 import com.example.kotlin.data.HawkConfig
 import com.example.kotlin.data.QAData
@@ -36,14 +35,6 @@ class HomeAdapter(private val context: Context, private val dataList: ArrayList<
                 when (dataList[position].title) {
                     "一进二" -> context.startActivity(Intent(context, QListActivity::class.java).putExtra("intent", "one_to_two.json"))
                     "整体操作" -> context.startActivity(Intent(context, QListActivity::class.java).putExtra("intent", "thought.json"))
-                    "恢复问答" -> {
-                        Toast.makeText(context, "已刷新", Toast.LENGTH_SHORT).show()
-                        Hawk.put(HawkConfig.QA, QAData.data)
-                    }
-                    "恢复算法" -> {
-                        Toast.makeText(context, "已刷新", Toast.LENGTH_SHORT).show()
-                        Hawk.put(HawkConfig.AlgorithmQA, AlgorithmData.data)
-                    }
 
                 }
 
