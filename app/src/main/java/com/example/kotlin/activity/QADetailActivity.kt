@@ -5,7 +5,6 @@ import android.text.Html
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
-import kotlinx.android.synthetic.main.activity_q_a_image_text_detail.*
 import kotlinx.android.synthetic.main.q_a_detail_layout.answer_text
 import kotlinx.android.synthetic.main.q_a_detail_layout.question_text
 
