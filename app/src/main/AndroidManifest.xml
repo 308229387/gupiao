@@ -36,48 +36,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.IncludeActivity" />
-        <activity android:name=".activity.FragmentDemoActivity" />
-        <activity
-            android:name=".activity.KeyboardActivity"
-            android:windowSoftInputMode="adjustNothing" />
-        <activity android:name=".activity.ViewPagerActivity" />
-        <activity android:name=".activity.GridActivity" />
-        <activity android:name=".activity.CustomViewpagerActivity" />
-        <activity android:name=".activity.ReadAssetsActivity" />
-        <activity android:name=".activity.CommentTestActivity" />
-        <activity android:name=".activity.BottomDialogActivity" />
-        <activity android:name=".activity.ImeiActivity" />
-        <activity android:name=".activity.AlgorithmListActivity" />
-        <activity android:name=".activity.AlgorithmDetailActivity" />
-        <activity android:name=".activity.PermissionActivity" />
-        <activity android:name=".activity.GetPhoneNumActivity" />
-        <activity android:name=".activity.HomeTabActivity" />
-        <activity android:name=".activity.TopBarActivity" />
-        <activity android:name=".activity.ListViewActivity" />
-        <activity android:name=".activity.AddViewActivity" />
-        <activity android:name=".activity.QAListActivity" />
-        <activity android:name=".activity.QADetailActivity" />
-        <activity android:name=".activity.RoundImageActivity" />
-        <activity android:name=".activity.GlideShowImageActivity" />
-        <activity android:name=".activity.ScheduleTaskActivity" />
-        <activity android:name=".activity.JDSearchActivity" />
-        <activity android:name=".activity.SpecialQAListActivity" />
-        <activity android:name=".activity.RxJavaLeanActivity" />
-        <activity android:name=".activity.TouchEventActivity" />
-        <activity android:name=".activity.PickViewActivity" />
-        <activity android:name=".activity.QListActivity" />
-        <activity android:name=".activity.ExpandableListActivity" />
-        <activity android:name=".activity.MainListActivity" />
-        <activity android:name=".activity.CommonActivity" />
 
-        <activity
-            android:name=".activity.LoadMoreActivity"
-            android:exported="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activity.QAHorizontalDetailActivity"
-            android:screenOrientation="landscape" />
+        <activity android:name=".activity.QADetailActivity" />
+        <activity android:name=".activity.QListActivity" />
     </application>
 
 </manifest>
